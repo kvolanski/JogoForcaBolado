@@ -7,6 +7,15 @@ public class Jogador {
     private String situacao;
     private int numVidas;
     private Date inicioJogo;
+    private Date fimJogo;
+
+    public Date getFimJogo() {
+        return fimJogo;
+    }
+
+    public void setFimJogo(Date fimJogo) {
+        this.fimJogo = fimJogo;
+    }
 
     public String getNome() {
         return nome;
