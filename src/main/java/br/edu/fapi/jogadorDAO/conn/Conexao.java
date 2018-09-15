@@ -13,13 +13,7 @@ public class Conexao {
     public static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(url, usuario, senha);
     }
-
-
-
 }
-
-
-
 
 
 

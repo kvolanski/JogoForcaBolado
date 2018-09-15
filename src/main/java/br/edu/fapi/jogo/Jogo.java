@@ -108,6 +108,8 @@ public class Jogo {
                     System.out.println("Suas vidas acabaram " + jogador.getNome() + " :( ... Infelizmente você perdeu.");
                     System.out.println("A palavra era: " + palavra);
                     jogador.setSituacao("DERROTA");
+                    Date date = new Date();
+                    jogador.setFimJogo(date);
                     acabaJogo = true;
                 }
             } else {
@@ -131,8 +133,8 @@ public class Jogo {
                 jogador.setSituacao("VITORIA");
                 Date date = new Date();
                 jogador.setFimJogo(date);
-
             }
+
             //do/while que possibilita os turnos do jogo.
         } while (!acabaJogo && numLetraAtual != palavra.length());
 
