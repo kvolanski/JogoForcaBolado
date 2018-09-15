@@ -139,7 +139,7 @@ public class Jogo {
         } while (!acabaJogo && numLetraAtual != palavra.length());
 
         JogoDAO jogoDAO = new JogoDAOImpl();
-        jogoDAO.createJogoInf(jogador);
+        jogoDAO.createJogoInf(jogador, palavra);
 
     }
 }
