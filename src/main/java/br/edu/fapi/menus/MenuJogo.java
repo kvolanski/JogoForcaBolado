@@ -3,6 +3,7 @@ package br.edu.fapi.menus;
 import br.edu.fapi.jogo.Jogo;
 import br.edu.fapi.model.Jogador;
 
+import java.util.Date;
 import java.util.Scanner;
 
 public class MenuJogo {
@@ -17,14 +18,20 @@ public class MenuJogo {
         switch (escolha){
             case 1:
                 jogador.setNumVidas(7);
+                Date date = new Date();
+                jogador.setInicioJogo(date);
                 Jogo jogo = new Jogo(scanner, jogador);
                 break;
             case 2:
                 jogador.setNumVidas(5);
+                date = new Date();
+                jogador.setInicioJogo(date);
                 jogo = new Jogo(scanner, jogador);
                 break;
             case 3:
                 jogador.setNumVidas(3);
+                date = new Date();
+                jogador.setInicioJogo(date);
                 jogo = new Jogo(scanner, jogador);
                 break;
             default:

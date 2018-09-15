@@ -1,21 +1,13 @@
 package br.edu.fapi.model;
 
-import java.sql.Date;
+import java.util.Date;
 
 public class Jogador {
     private String nome;
     private String situacao;
     private int numVidas;
-    private Date inicioJogo;
-    private Date fimJogo;
-
-    public Date getFimJogo() {
-        return fimJogo;
-    }
-
-    public void setFimJogo(Date fimJogo) {
-        this.fimJogo = fimJogo;
-    }
+    private java.util.Date inicioJogo;
+    private java.util.Date fimJogo;
 
     public String getNome() {
         return nome;
@@ -47,5 +39,13 @@ public class Jogador {
 
     public void setInicioJogo(Date inicioJogo) {
         this.inicioJogo = inicioJogo;
+    }
+
+    public Date getFimJogo() {
+        return fimJogo;
+    }
+
+    public void setFimJogo(Date fimJogo) {
+        this.fimJogo = fimJogo;
     }
 }

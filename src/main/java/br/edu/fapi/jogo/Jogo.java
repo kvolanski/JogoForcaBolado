@@ -1,9 +1,12 @@
 package br.edu.fapi.jogo;
 
+import br.edu.fapi.jogadorDAO.JogoDAO;
+import br.edu.fapi.jogadorDAO.impl.JogoDAOImpl;
 import br.edu.fapi.model.Jogador;
 import br.edu.fapi.operacoes.Operacoes;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.Scanner;
 
 public class Jogo {
@@ -51,6 +54,8 @@ public class Jogo {
             if (letra.equalsIgnoreCase("0")){
                 System.out.println("Jogo encerrado");
                 jogador.setSituacao("ABANDONO");
+                Date date = new Date();
+                jogador.setFimJogo(date);
                 break;
             }
 
@@ -124,9 +129,15 @@ public class Jogo {
                 System.out.println("Você ganhou acertando a palavra: " + palavra);
                 System.out.println("Suas vidas restantes: " + jogador.getNumVidas());
                 jogador.setSituacao("VITORIA");
+                Date date = new Date();
+                jogador.setFimJogo(date);
+
             }
             //do/while que possibilita os turnos do jogo.
         } while (!acabaJogo && numLetraAtual != palavra.length());
+
+        JogoDAO jogoDAO = new JogoDAOImpl();
+        jogoDAO.createJogoInf(jogador);
 
     }
 }

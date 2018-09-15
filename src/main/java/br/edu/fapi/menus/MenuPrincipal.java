@@ -2,11 +2,12 @@ package br.edu.fapi.menus;
 
 import br.edu.fapi.model.Jogador;
 
+import java.text.ParseException;
 import java.util.Scanner;
 
 public class MenuPrincipal {
 
-    public MenuPrincipal() {
+    public MenuPrincipal(){
         Jogador jogador = new Jogador();
         Scanner scanner = new Scanner(System.in);
         boolean continua = true;
