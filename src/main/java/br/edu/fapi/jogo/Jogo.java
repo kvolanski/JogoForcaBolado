@@ -1,5 +1,7 @@
 package br.edu.fapi.jogo;
 
+import br.edu.fapi.jogadorDAO.JogoDAO;
+import br.edu.fapi.jogadorDAO.impl.JogoDAOImpl;
 import br.edu.fapi.model.Jogador;
 import br.edu.fapi.operacoes.Operacoes;
 
@@ -124,7 +126,9 @@ public class Jogo {
                 System.out.println("Você ganhou acertando a palavra: " + palavra);
                 System.out.println("Suas vidas restantes: " + jogador.getNumVidas());
                 jogador.setSituacao("VITORIA");
+
             }
+
             //do/while que possibilita os turnos do jogo.
         } while (!acabaJogo && numLetraAtual != palavra.length());
 
