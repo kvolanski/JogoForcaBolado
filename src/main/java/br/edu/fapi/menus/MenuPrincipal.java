@@ -25,16 +25,18 @@ public class MenuPrincipal {
             System.out.println("1- Jogar");
             System.out.println("2- Gerar Relatorios");
             System.out.println("0- sair");
-            int escolha = scanner.nextInt();
+            String escolha = scanner.nextLine();
+            //está como string porque caso o usurário digite uma letra qualquer,ele vai cair no default
+            //se estiver como int e o usuário digitar uma letra,vai dar erro.
 
             switch (escolha) {
-                case 1:
+                case "1":
                     MenuJogo.menuJogo(scanner, jogador);
                     break;
-                case 2:
+                case "2":
                     MenuRelatorios.menuRelatorios(scanner, jogador);
                     break;
-                case 0:
+                case "0":
                     continua = false;
                     break;
                 default:
