@@ -15,16 +15,16 @@ public class MenuRelatorios {
         System.out.println("1- Gerar Relatorio Geral");
         System.out.println("2- Gerar Relatorio de Vitorias");
         System.out.println("3- Gerar Relatorio de Derrotas");
-        String escolha = scanner.nextLine();
+        int escolha = scanner.nextInt();
 
         switch (escolha){
-            case "1":
+            case 1:
                 criacaoArquivos.criaRelatorioGeral();
                 break;
-            case "2":
+            case 2:
                 criacaoArquivos.criaRelatorioVitoria();
                 break;
-            case "3":
+            case 3:
                 criacaoArquivos.criaRelatorioDerrota();
                 break;
             default:
