@@ -59,8 +59,8 @@ public class JogoDAOImpl implements JogoDAO {
                 jogador.setSituacao(resultSet.getString("situacao"));
                 jogador.setPalavraJogo(resultSet.getString("palavraJogo"));
                 jogador.setNumVidas(resultSet.getInt("numVidas"));
-                jogador.setInicioJogo(resultSet.getDate("inicioJogo"));
-                jogador.setFimJogo(resultSet.getDate("fimJogo"));
+                jogador.setInicioJogo(resultSet.getTimestamp("inicioJogo"));
+                jogador.setFimJogo(resultSet.getTimestamp("fimJogo"));
                 listaJogadores.add(jogador);
             }
 

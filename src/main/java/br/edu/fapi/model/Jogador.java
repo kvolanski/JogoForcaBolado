@@ -1,6 +1,8 @@
 package br.edu.fapi.model;
 
 import java.io.Serializable;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Jogador implements Serializable {
@@ -79,11 +81,15 @@ public class Jogador implements Serializable {
 
     @Override
     public String toString() {
+
+        String inicioJogoFormatado = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss").format(inicioJogo);
+        String fimJogoFormatado = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss").format(fimJogo);
+
         return  "Nome: " + nome + '\n' +
                 "Dificuldade: " + dificuldade+ '\n' +
                 "Palavra: " + palavraJogo + '\n' +
                 "Resultado: " + situacao + '\n' +
-                "Data e Hora de Inicio: " + inicioJogo + '\n' +
-                "Data e hora de Fim: " + fimJogo + '\n';
+                "Data e Hora de Inicio: " + inicioJogoFormatado + '\n' +
+                "Data e hora de Fim: " + fimJogoFormatado + '\n';
     }
 }
