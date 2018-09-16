@@ -123,7 +123,17 @@ public class Operacoes {
 
             do {
                 System.out.print("Escolha uma letra (ou '0' para abandonar o jogo): ");
-                letra = scanner.nextLine().toUpperCase();
+
+                do {
+                    letra = scanner.nextLine().toUpperCase();
+
+                    if(letra.length() <= 0){
+                        System.out.println("Digite uma letra!!");
+                    }
+
+                }while (letra.length() <= 0);
+
+
                 c = letra.charAt(0);
                 if (!Character.isLetter(c) && !"0".equalsIgnoreCase(String.valueOf(c))) {
                     System.out.println("");
