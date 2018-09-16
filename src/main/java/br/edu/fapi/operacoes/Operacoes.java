@@ -29,7 +29,6 @@ public class Operacoes {
             palavraValida = true;
             boolean repete = true;
             System.out.println(jogador.getNome() + ", digite a palavra escolhida ('-' é aceito)");
-            scanner.nextLine();
             palavra = scanner.nextLine();
             palavra = palavra.toUpperCase();
             palavra = ignoraAcento(palavra);
@@ -45,7 +44,7 @@ public class Operacoes {
 
                     while (repete) {
                         System.out.println("");
-                        System.out.println("A palavra não pode conter números, caracteres especiais exceto '-',\nestar vazia ou com espaço.");
+                        System.out.println("A palavra não pode conter números, caracteres especiais exceto '-', estar vazia ou com espaço.");
                         palavraValida = false;
                         System.out.println("");
                         repete = false;

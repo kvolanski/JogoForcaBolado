@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class MenuPrincipal {
 
-    public MenuPrincipal(){
+    public MenuPrincipal() throws Exception {
         Jogador jogador = new Jogador();
         Scanner scanner = new Scanner(System.in);
         boolean continua = true;
@@ -25,16 +25,16 @@ public class MenuPrincipal {
             System.out.println("1- Jogar");
             System.out.println("2- Gerar Relatorios");
             System.out.println("0- sair");
-            int escolha = scanner.nextInt();
+            String escolha = scanner.nextLine();
 
             switch (escolha) {
-                case 1:
+                case "1":
                     MenuJogo.menuJogo(scanner, jogador);
                     break;
-                case 2:
+                case "2":
                     MenuRelatorios.menuRelatorios(scanner, jogador);
                     break;
-                case 0:
+                case "0":
                     continua = false;
                     break;
                 default:

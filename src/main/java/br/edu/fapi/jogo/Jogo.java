@@ -1,12 +1,13 @@
 package br.edu.fapi.jogo;
 
-import br.edu.fapi.jogadorDAO.JogoDAO;
-import br.edu.fapi.jogadorDAO.impl.JogoDAOImpl;
+import br.edu.fapi.dao.database.JogoDAO;
+import br.edu.fapi.dao.database.impl.JogoDAOImpl;
 import br.edu.fapi.model.Jogador;
 import br.edu.fapi.operacoes.Operacoes;
 
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 import java.util.Scanner;
 
 public class Jogo {
@@ -14,7 +15,7 @@ public class Jogo {
     public Jogo(Scanner scanner, Jogador jogador) {
         String palavra;
         int numLetraAtual;
-        ArrayList<String> letrasEscolhidas = new ArrayList();
+        List<String> letrasEscolhidas = new ArrayList();
         boolean letraJaFalada;
         int contDiminuiVida;
         String letra;

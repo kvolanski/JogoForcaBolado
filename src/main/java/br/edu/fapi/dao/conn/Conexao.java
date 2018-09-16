@@ -1,4 +1,4 @@
-package br.edu.fapi.jogadorDAO.conn;
+package br.edu.fapi.dao.conn;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
