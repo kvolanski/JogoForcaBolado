@@ -7,6 +7,8 @@ import java.util.Scanner;
 
 public class Operacoes {
 
+
+
     public static void limpaTela() {
         for (int cont = 0; cont < 50; cont++) {
             System.out.println("");
@@ -20,17 +22,29 @@ public class Operacoes {
         return false;
     }
 
+
     public static String lerPalavra(Scanner scanner, Jogador jogador) {
         boolean palavraValida;
         String palavra;
 
-        /*não foi possível validar caso o usuário de enter sem digitar nada*/
+
         do {
             palavraValida = true;
             boolean repete = true;
             System.out.println(jogador.getNome() + ", digite a palavra escolhida ('-' é aceito)");
-            palavra = scanner.nextLine();
-            palavra = palavra.toUpperCase();
+
+            //Validação caso o usuário de enter sem digitar nada, o programa pede para ele digitar novamente
+            do {
+                palavra = scanner.nextLine().toUpperCase(); // pega a palavra e converte tudo pra MAIUCULA
+
+                if(palavra.length() <= 0){ // se o tamanho da palavra for menor que 0, o programa
+                    //escreve na tela pedindo para digitar uma nova palavra.
+                    System.out.println("Digite uma palavra!");
+                }
+
+            }while (palavra.length() <= 0);
+
+            //palavra = palavra.toUpperCase();
             palavra = ignoraAcento(palavra);
 
             if (palavra.contains("-")) {
