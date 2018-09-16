@@ -79,9 +79,9 @@ public class Jogador implements Serializable {
 
     @Override
     public String toString() {
-        return  "Nome: '" + nome + '\n' +
-                "Dificuldade: '" + dificuldade+ '\n' +
-                "Palavra: '" + palavraJogo + '\n' +
+        return  "Nome: " + nome + '\n' +
+                "Dificuldade: " + dificuldade+ '\n' +
+                "Palavra: " + palavraJogo + '\n' +
                 "Resultado: " + situacao + '\n' +
                 "Data e Hora de Inicio: " + inicioJogo + '\n' +
                 "Data e hora de Fim: " + fimJogo + '\n';
