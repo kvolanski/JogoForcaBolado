@@ -44,7 +44,7 @@ public class Operacoes {
 
                     while (repete) {
                         System.out.println("");
-                        System.out.println("A palavra não pode conter números, caracteres especiais exceto '-', estar vazia ou com espaço.");
+                        System.out.println("A palavra nao pode conter numeros, caracteres especiais exceto '-', estar vazia ou com espaco.");
                         palavraValida = false;
                         System.out.println("");
                         repete = false;
@@ -114,14 +114,14 @@ public class Operacoes {
                 c = letra.charAt(0);
                 if (!Character.isLetter(c) && !"0".equalsIgnoreCase(String.valueOf(c))) {
                     System.out.println("");
-                    System.out.println("Caracter inválido, são aceitas apenas letras. Digite novamente");
+                    System.out.println("Caracter invalido, sao aceitas apenas letras. Digite novamente");
                 }
             } while (!Character.isLetter(c) && !"0".equalsIgnoreCase(String.valueOf(c)));
 
             if (letra.length() != 1 || letra.isEmpty()) {
                 System.out.println("");
                 System.out.println("");
-                System.out.println("Letra inválida, apenas é válido 1(um) caractere. Digite novamente");
+                System.out.println("Letra invalida, apenas e valido 1(um) caractere. Digite novamente");
             } else {
                 leitorLetra = true;
             }

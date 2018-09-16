@@ -16,17 +16,18 @@ public class JogoDAOImpl implements JogoDAO {
     @Override
     public int createJogoInf(Jogador jogador, String palavra) {
         try (Connection connection = Conexao.getConnection()) {
-            PreparedStatement preparedStatement = connection.prepareStatement("INSERT INTO jogador(nome, situacao, palavraJogo, numVidas, inicioJogo, fimJogo)" +
-                    "VALUES (?, ?, ?, ?, ?, ?)", Statement.RETURN_GENERATED_KEYS);
+            PreparedStatement preparedStatement = connection.prepareStatement("INSERT INTO jogador(nome, dificuldade, situacao, palavraJogo, numVidas, inicioJogo, fimJogo)" +
+                    "VALUES (?, ?, ?, ?, ?, ?, ?)", Statement.RETURN_GENERATED_KEYS);
 
             preparedStatement.setString(1, jogador.getNome());
-            preparedStatement.setString(2, jogador.getSituacao());
-            preparedStatement.setString(3, palavra);
-            preparedStatement.setInt(4, jogador.getNumVidas());
+            preparedStatement.setString(2, jogador.getDificuldade());
+            preparedStatement.setString(3, jogador.getSituacao());
+            preparedStatement.setString(4, palavra);
+            preparedStatement.setInt(5, jogador.getNumVidas());
             java.sql.Timestamp sqlDateIni = new java.sql.Timestamp(jogador.getInicioJogo().getTime());
-            preparedStatement.setTimestamp(5, sqlDateIni);
+            preparedStatement.setTimestamp(6, sqlDateIni);
             java.sql.Timestamp sqlDateFim = new java.sql.Timestamp(jogador.getFimJogo().getTime());
-            preparedStatement.setTimestamp(6, sqlDateFim);
+            preparedStatement.setTimestamp(7, sqlDateFim);
 
             int resultado = preparedStatement.executeUpdate();
 
@@ -54,6 +55,7 @@ public class JogoDAOImpl implements JogoDAO {
                 Jogador jogador = new Jogador();
                 jogador.setIdJogador(resultSet.getInt("idjogador"));
                 jogador.setNome(resultSet.getString("nome"));
+                jogador.setDificuldade(resultSet.getString("dificuldade"));
                 jogador.setSituacao(resultSet.getString("situacao"));
                 jogador.setPalavraJogo(resultSet.getString("palavraJogo"));
                 jogador.setNumVidas(resultSet.getInt("numVidas"));

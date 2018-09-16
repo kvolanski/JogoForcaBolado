@@ -67,8 +67,8 @@ public class Jogo {
                   salvar ou comparar nada.*/
             if (letraJaFalada) {
                 Operacoes.limpaTela();
-                System.out.println("A letra '" + letra + "' já foi escolhida. Digite outra letra");
-                System.out.print("Letras já escolhidas: ");
+                System.out.println("A letra '" + letra + "' ja foi escolhida. Digite outra letra");
+                System.out.print("Letras ja escolhidas: ");
                 Operacoes.mostrarLetrasEscolhidas(letrasEscolhidas);
                 System.out.println("");
             } else {
@@ -76,7 +76,7 @@ public class Jogo {
 
                 letrasEscolhidas.add(letra);
 
-                System.out.print("Letras já escolhidas: ");
+                System.out.print("Letras ja escolhidas: ");
                 Operacoes.mostrarLetrasEscolhidas(letrasEscolhidas);
 
                 System.out.println("");
@@ -99,7 +99,7 @@ public class Jogo {
             //também contém a escolha de jogar de novo ou não.
             if (contDiminuiVida == palavra.length()) {
                 jogador.setNumVidas(jogador.getNumVidas()-1);
-                System.out.println("A letra '" + letra + "' não corresponde a nenhuma letra da palavra. (-1 vida)");
+                System.out.println("A letra '" + letra + "' nao corresponde a nenhuma letra da palavra. (-1 vida)");
                 System.out.println("");
                 Operacoes.mostrarPalavraAdvinha(palavra, palavraAdvinha);
                 System.out.println("");
@@ -129,7 +129,7 @@ public class Jogo {
             if (numLetraAtual == palavra.length()) {
                 Operacoes.limpaTela();
                 System.out.println("Parabens " + jogador.getNome() + "!!!");
-                System.out.println("Você ganhou acertando a palavra: " + palavra);
+                System.out.println("Voce ganhou acertando a palavra: " + palavra);
                 System.out.println("Suas vidas restantes: " + jogador.getNumVidas());
                 jogador.setSituacao("VITORIA");
                 Date date = new Date();
