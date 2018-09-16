@@ -1,0 +1,29 @@
+
+_
+/src/main/java/br/edu/fapi/dao/conn/Conexao.java,4\a\4ac9f0b2159537f03e8e922037f9b688e5a91f67
+c
+3src/main/java/br/edu/fapi/dao/database/JogoDAO.java,5\6\56edfa0082ca2cd539102a91bc82fdc0523c96c0
+b
+2src/main/java/br/edu/fapi/menus/MenuPrincipal.java,d\9\d96378bd627169b9bd80026417f7397579764a9c
+X
+(src/main/java/br/edu/fapi/jogo/Jogo.java,c\5\c5e19321b052c5c7c748f3ecce0596c4bd75dbc3
+X
+(src/main/java/br/edu/fapi/main/Main.java,e\2\e2bb17d2511abd9a47221a8a591c2d9122a89b46
+]
+-src/main/java/br/edu/fapi/menus/MenuJogo.java,a\3\a35424491625012bfe3c3c968d2fc19c5418b062
+c
+3src/main/java/br/edu/fapi/menus/MenuRelatorios.java,2\5\25bb824e83c99025aaf6e0043164a6dcec44a003
+\
+,src/main/java/br/edu/fapi/model/Jogador.java,6\a\6acd1cf3c2e9f01bd0141b1d149e8ad4eb2ee3a9
+b
+2src/main/java/br/edu/fapi/operacoes/Operacoes.java,e\2\e2780af070a952753f94568d612aad9f45a8c554
+l
+<src/main/java/br/edu/fapi/dao/database/impl/JogoDAOImpl.java,c\0\c05e249e41fdb07b0f0333cae3309d462f0f5454
+M
+Relatorios/RelatorioGeral.txt,8\6\86c7ed82ab2b9392f0a9fdc7dcc99c8ceff719c0
+O
+Relatorios/RelatorioDerrota.txt,d\4\d4c93c101b20604796696c495ff4921953df76a7
+k
+;src/main/java/br/edu/fapi/dao/arquivos/CriacaoArquivos.java,8\f\8fbc6d056edf4f4a839c44b5b48f01d804b7648c
+O
+Relatorios/RelatorioVitoria.txt,0\a\0a180d59138ce2ae7e931a0fdc265f24c97e40ba

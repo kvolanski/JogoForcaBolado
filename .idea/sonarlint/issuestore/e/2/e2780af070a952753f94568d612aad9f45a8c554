@@ -1,0 +1,31 @@
+
+_squid:S1126"AReplace this if-then-else statement by a single return statement.(Š¹¼¥8£•ßşİ,
+[
+squid:S1061"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ8£•ßşİ,
+V
+squid:S106|"9Replace this use of System.out or System.err by a logger.(Ñı­Ÿ8£•ßşİ,
+V
+squid:S106o"9Replace this use of System.out or System.err by a logger.(‚¶†ª8£•ßşİ,
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(¶ÉÕÀúÿÿÿÿ8£•ßşİ,
+]squid:S1118":Add a private constructor to hide the implicit public one.(Ü¸â‰üÿÿÿÿ8£•ßşİ,
+V
+squid:S106:"9Replace this use of System.out or System.err by a logger.(ã‘û¯8£•ßşİ,
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ8£•ßşİ,
+V
+squid:S106/"9Replace this use of System.out or System.err by a logger.(°ïç´8£•ßşİ,
+[
+squid:S106."9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ8£•ßşİ,
+[
+squid:S106z"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ8£•ßşİ,
+[
+squid:S106{"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ8£•ßşİ,
+[
+squid:S106t"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ8£•ßşİ,
+V
+squid:S106S"9Replace this use of System.out or System.err by a logger.(Ûæâê8£•ßşİ,
+V
+squid:S106u"9Replace this use of System.out or System.err by a logger.(¬‰ÌÃ8£•ßşİ,
+\
+squid:S106”"9Replace this use of System.out or System.err by a logger.(·Ïò†şÿÿÿÿ8£•ßşİ,

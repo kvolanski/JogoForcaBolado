@@ -31,11 +31,11 @@ public class Operacoes {
         do {
             palavraValida = true;
             boolean repete = true;
-            System.out.println(jogador.getNome() + ", digite a palavra escolhida ('-' é aceito)");
+            System.out.println("Por favor, peca para que alguem digite a palavra escolhida ('-' é aceito)");
 
             //Validação caso o usuário de enter sem digitar nada, o programa pede para ele digitar novamente
             do {
-                palavra = scanner.nextLine().toUpperCase(); // pega a palavra e converte tudo pra MAIUCULA
+                palavra = scanner.nextLine().toUpperCase(); // pega a palavra e converte tudo pra MAIUSCULA
 
                 if(palavra.length() <= 0){ // se o tamanho da palavra for menor que 0, o programa
                     //escreve na tela pedindo para digitar uma nova palavra.
@@ -123,8 +123,7 @@ public class Operacoes {
 
             do {
                 System.out.print("Escolha uma letra (ou '0' para abandonar o jogo): ");
-                letra = scanner.nextLine();
-                letra = letra.toUpperCase();
+                letra = scanner.nextLine().toUpperCase();
                 c = letra.charAt(0);
                 if (!Character.isLetter(c) && !"0".equalsIgnoreCase(String.valueOf(c))) {
                     System.out.println("");

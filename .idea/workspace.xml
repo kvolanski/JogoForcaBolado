@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91b81548-5be5-454f-9a67-f33123289640" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Relatorios/RelatorioVitoria.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Relatorios/RelatorioVitoria.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/fapi/model/Jogador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/fapi/model/Jogador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/fapi/operacoes/Operacoes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/fapi/operacoes/Operacoes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/fapi/operacoes/Operacoes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/edu/fapi/operacoes/Operacoes.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +17,10 @@
     <session id="-877020628">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -38,13 +40,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="3882" />
+          <entry key="java" value="3936" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3881" />
+          <entry key="JAVA" value="3935" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="SQL" value="1" />
         </counts>
@@ -52,11 +54,11 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/dao/database/impl/JogoDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
+            <state relative-caret-position="1272">
               <caret line="61" column="40" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -74,7 +76,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/dao/arquivos/CriacaoArquivos.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="65">
@@ -89,7 +91,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/jogo/Jogo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2712">
+            <state relative-caret-position="2952">
               <caret line="131" column="40" selection-start-line="131" selection-start-column="40" selection-end-line="131" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -98,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/operacoes/Operacoes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2528">
-              <caret line="123" column="63" selection-start-line="123" selection-start-column="63" selection-end-line="123" selection-end-column="63" />
+            <state relative-caret-position="312">
+              <caret line="133" column="52" selection-start-line="133" selection-start-column="52" selection-end-line="133" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -110,7 +112,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/menus/MenuRelatorios.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
+            <state relative-caret-position="552">
               <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
             </state>
           </provider>
@@ -138,8 +140,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/model/Jogador.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="86" column="26" lean-forward="true" selection-start-line="86" selection-start-column="26" selection-end-line="86" selection-end-column="26" />
+            <state relative-caret-position="1272">
+              <caret line="86" column="26" selection-start-line="86" selection-start-column="26" selection-end-line="86" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1474#1475#0" expanded="true" />
@@ -180,8 +182,8 @@
         <option value="$PROJECT_DIR$/src/main/java/br/edu/fapi/menus/MenuJogo.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/edu/fapi/dao/database/impl/JogoDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/edu/fapi/jogo/Jogo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/edu/fapi/operacoes/Operacoes.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/edu/fapi/model/Jogador.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/edu/fapi/operacoes/Operacoes.java" />
       </list>
     </option>
   </component>
@@ -219,7 +221,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -400,14 +401,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537070966603" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537109119368" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -455,12 +457,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537044667126</updated>
-      <workItem from="1537044669506" duration="21886000" />
+      <workItem from="1537044669506" duration="21967000" />
+      <workItem from="1537107261822" duration="1522000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21886000" />
+    <option name="totallyTimeSpent" value="23489000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -473,36 +476,37 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25321338" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="SonarLint" weight="0.32884097" />
-      <window_info anchor="bottom" id="Messages" weight="0.32884097" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32884097" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="1.0" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6698113" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39892185" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32884097" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" weight="0.32969153" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="SonarLint" order="8" weight="0.32884097" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32884097" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32884097" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32969153" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,13 +516,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/operacoes/teste.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/operacoes/teste.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.46/mysql-connector-java-5.1.46.jar!/com/mysql/jdbc/SingleByteCharsetConverter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
@@ -540,20 +538,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/teste/teste.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/teste/JogadorDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/teste/teste.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/teste/JogadorDAO.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/dao/conn/Conexao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -574,13 +560,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/model/JogadorDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/model/JogadorDTO.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/menus/MenuPrincipal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -613,16 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="111" selection-start-line="111" selection-end-line="111" />
-          <folding>
-            <element signature="e#1442#1443#0" expanded="true" />
-            <element signature="e#1520#1521#0" expanded="true" />
-            <element signature="e#1558#1559#0" expanded="true" />
-            <element signature="e#1622#1623#0" expanded="true" />
-            <element signature="e#1656#1657#0" expanded="true" />
-            <element signature="e#1684#1685#0" expanded="true" />
-            <element signature="e#2962#2963#0" expanded="true" />
-            <element signature="e#3001#3002#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -630,11 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
           <caret line="204" selection-start-line="204" selection-end-line="204" />
-          <folding>
-            <element signature="e#7901#7902#0" expanded="true" />
-            <element signature="e#7981#7982#0" expanded="true" />
-            <element signature="e#8425#8426#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -642,10 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
           <caret line="3759" selection-start-line="3759" selection-end-line="3759" />
-          <folding>
-            <element signature="e#176737#176738#0" expanded="true" />
-            <element signature="e#176807#176808#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -656,9 +617,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RelatorioGeral.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/RelatorioGeral.txt" />
     <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/menus/MenuJogo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
@@ -669,16 +628,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/menus/MenuRelatorios.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/dao/database/impl/JogoDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+        <state relative-caret-position="1272">
+          <caret line="61" column="40" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Relatorios/RelatorioVitoria.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/jogo/Jogo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2712">
+        <state relative-caret-position="2952">
           <caret line="131" column="40" selection-start-line="131" selection-start-column="40" selection-end-line="131" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -686,10 +655,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/operacoes/Operacoes.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/menus/MenuRelatorios.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2528">
-          <caret line="123" column="63" selection-start-line="123" selection-start-column="63" selection-end-line="123" selection-end-column="63" />
+        <state relative-caret-position="552">
+          <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -706,20 +675,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/dao/database/impl/JogoDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="61" column="40" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/model/Jogador.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="86" column="26" lean-forward="true" selection-start-line="86" selection-start-column="26" selection-end-line="86" selection-end-column="26" />
+        <state relative-caret-position="1272">
+          <caret line="86" column="26" selection-start-line="86" selection-start-column="26" selection-end-line="86" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1474#1475#0" expanded="true" />
@@ -730,13 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Relatorios/RelatorioVitoria.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/dao/arquivos/CriacaoArquivos.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="65">
@@ -744,6 +696,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/operacoes/Operacoes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="133" column="52" selection-start-line="133" selection-start-column="52" selection-end-line="133" selection-end-column="52" />
         </state>
       </provider>
     </entry>
