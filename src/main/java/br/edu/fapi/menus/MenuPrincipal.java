@@ -17,7 +17,17 @@ public class MenuPrincipal {
         System.out.println();
         System.out.println();
         System.out.println("Por favor, digite seu nome.");
-        jogador.setNome(scanner.nextLine());
+
+        do {
+            jogador.setNome(scanner.nextLine());
+
+            if (jogador.getNome().length() <= 0){
+                System.out.println("Por favor, digite seu nome.");
+            }
+
+        }while (jogador.getNome().length() <= 0);
+
+
 
         while (continua) {
             System.out.println();
