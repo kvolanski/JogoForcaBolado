@@ -24,6 +24,7 @@ SET time_zone = "+00:00";
 
 CREATE SCHEMA `forca` ;
 
+USE forca;
 
 --
 -- Estrutura da tabela `jogador`
