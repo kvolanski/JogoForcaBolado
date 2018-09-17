@@ -1,6 +1,7 @@
 package br.edu.fapi.menus;
 
 import br.edu.fapi.model.Jogador;
+import br.edu.fapi.operacoes.Operacoes;
 
 import java.text.ParseException;
 import java.util.Scanner;
@@ -47,6 +48,16 @@ public class MenuPrincipal {
                     MenuRelatorios.menuRelatorios(scanner, jogador);
                     break;
                 case "0":
+                    Operacoes.limpaTela();
+                    System.out.println("Muito obrigado por jogar nosso jogo!! ^^");
+                    System.out.println("    Te esperamos pra uma proxima!!");
+                    System.out.println();
+                    System.out.println();
+                    System.out.println("           Dev team:         ");
+                    System.out.println("              D          iego");
+                    System.out.println("              K          evin");
+                    System.out.println("              R          obson");
+                    System.out.println("              T          iago ");
                     continua = false;
                     break;
                 default:

@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91b81548-5be5-454f-9a67-f33123289640" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Relatorios/RelatorioGeral.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Relatorios/RelatorioGeral.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Relatorios/RelatorioVitoria.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Relatorios/RelatorioVitoria.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/fapi/dao/arquivos/CriacaoArquivos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/fapi/dao/arquivos/CriacaoArquivos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/fapi/dao/database/JogoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/fapi/dao/database/JogoDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/fapi/dao/database/impl/JogoDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/fapi/dao/database/impl/JogoDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/fapi/jogo/Jogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/fapi/jogo/Jogo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/fapi/menus/MenuJogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/fapi/menus/MenuJogo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/fapi/operacoes/Operacoes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/fapi/operacoes/Operacoes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/fapi/dao/arquivos/CriacaoArquivos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/edu/fapi/dao/arquivos/CriacaoArquivos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/fapi/dao/database/impl/JogoDAOImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/fapi/menus/MenuJogo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/edu/fapi/menus/MenuJogo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/fapi/menus/MenuPrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/edu/fapi/menus/MenuPrincipal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/fapi/menus/MenuRelatorios.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/edu/fapi/menus/MenuRelatorios.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/fapi/model/Jogador.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/edu/fapi/model/Jogador.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/fapi/operacoes/Operacoes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/edu/fapi/operacoes/Operacoes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/fapi/menus/MenuPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/fapi/menus/MenuPrincipal.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,27 +24,27 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="16" />
-          <entry key="java" value="66" />
+          <entry key="java" value="68" />
           <entry key="txt" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="16" />
-          <entry key="JAVA" value="66" />
+          <entry key="JAVA" value="68" />
           <entry key="PLAIN_TEXT" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="5328" />
+          <entry key="java" value="5699" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5327" />
+          <entry key="JAVA" value="5698" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="SQL" value="1" />
         </counts>
@@ -92,10 +77,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/dao/arquivos/CriacaoArquivos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
+            <state relative-caret-position="262">
               <caret line="82" column="73" selection-start-line="82" selection-start-column="73" selection-end-line="82" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -107,11 +92,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/jogo/Jogo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3168">
-              <caret line="132" selection-start-line="132" selection-end-line="132" />
+            <state relative-caret-position="464">
+              <caret line="142" column="66" selection-start-line="142" selection-start-column="66" selection-end-line="142" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/menus/MenuPrincipal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="56" column="65" selection-start-line="56" selection-start-column="65" selection-end-line="56" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/operacoes/Operacoes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3376">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -136,7 +139,6 @@
         <option value="$PROJECT_DIR$/src/main/java/br/edu/fapi/jogadorDAO/impl/JogoDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/edu/fapi/dao/impl/JogoDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/edu/fapi/model/JogadorDTO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/edu/fapi/menus/MenuPrincipal.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/edu/fapi/main/Main.java" />
         <option value="$PROJECT_DIR$/RelatorioGeral.txt" />
         <option value="$PROJECT_DIR$/src/main/java/br/edu/fapi/menus/MenuRelatorios.java" />
@@ -144,9 +146,10 @@
         <option value="$PROJECT_DIR$/src/main/java/br/edu/fapi/menus/MenuJogo.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/edu/fapi/operacoes/Operacoes.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/edu/fapi/dao/database/JogoDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/edu/fapi/jogo/Jogo.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/edu/fapi/dao/database/impl/JogoDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/edu/fapi/dao/arquivos/CriacaoArquivos.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/edu/fapi/jogo/Jogo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/edu/fapi/menus/MenuPrincipal.java" />
       </list>
     </option>
   </component>
@@ -372,7 +375,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537149813887" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537150678618" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/fapi-poo-io-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -421,12 +424,12 @@
       <option name="presentableId" value="Default" />
       <updated>1537044667126</updated>
       <workItem from="1537044669506" duration="21967000" />
-      <workItem from="1537107261822" duration="13025000" />
+      <workItem from="1537107261822" duration="14195000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34992000" />
+    <option name="totallyTimeSpent" value="36162000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -581,24 +584,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/menus/MenuPrincipal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/menus/MenuRelatorios.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
           <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/operacoes/Operacoes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -882,16 +871,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/jogo/Jogo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3168">
-          <caret line="132" selection-start-line="132" selection-end-line="132" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/dao/database/impl/JogoDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1336">
@@ -904,11 +883,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/dao/arquivos/CriacaoArquivos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
+        <state relative-caret-position="262">
           <caret line="82" column="73" selection-start-line="82" selection-start-column="73" selection-end-line="82" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/operacoes/Operacoes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3376">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/jogo/Jogo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="142" column="66" selection-start-line="142" selection-start-column="66" selection-end-line="142" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/menus/MenuPrincipal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="56" column="65" selection-start-line="56" selection-start-column="65" selection-end-line="56" selection-end-column="65" />
         </state>
       </provider>
     </entry>
