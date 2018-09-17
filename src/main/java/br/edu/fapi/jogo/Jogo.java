@@ -12,7 +12,7 @@ import java.util.Scanner;
 
 public class Jogo {
 
-    public Jogo(Scanner scanner, Jogador jogador) {
+    public Jogo(Scanner scanner, Jogador jogador, JogoDAO jogoDAO) {
         String palavra;
         int numLetraAtual;
         List<String> letrasEscolhidas = new ArrayList();
@@ -22,7 +22,7 @@ public class Jogo {
         boolean acabaJogo = false;
 
         //leitura da palavra e criação da palavra que contem  "_" no lugar das letras.
-        palavra = Operacoes.lerPalavra(scanner, jogador);
+        palavra = Operacoes.lerPalavra(scanner, jogador, jogoDAO);
 
         boolean temHifen;
         temHifen = Operacoes.temHifen(palavra);
@@ -57,6 +57,7 @@ public class Jogo {
                 jogador.setSituacao("ABANDONO");
                 Date date = new Date();
                 jogador.setFimJogo(date);
+                jogoDAO.updateFimDateSit(jogador);
                 break;
             }
 
@@ -111,6 +112,7 @@ public class Jogo {
                     jogador.setSituacao("DERROTA");
                     Date date = new Date();
                     jogador.setFimJogo(date);
+                    jogoDAO.updateFimDateSit(jogador);
                     acabaJogo = true;
                 }
             } else {
@@ -134,13 +136,10 @@ public class Jogo {
                 jogador.setSituacao("VITORIA");
                 Date date = new Date();
                 jogador.setFimJogo(date);
+                jogoDAO.updateFimDateSit(jogador);
             }
 
             //do/while que possibilita os turnos do jogo.
         } while (!acabaJogo && numLetraAtual != palavra.length());
-
-        JogoDAO jogoDAO = new JogoDAOImpl();
-        jogoDAO.createJogoInf(jogador, palavra);
-
     }
 }

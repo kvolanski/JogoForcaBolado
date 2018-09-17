@@ -1,5 +1,7 @@
 package br.edu.fapi.menus;
 
+import br.edu.fapi.dao.database.JogoDAO;
+import br.edu.fapi.dao.database.impl.JogoDAOImpl;
 import br.edu.fapi.jogo.Jogo;
 import br.edu.fapi.model.Jogador;
 
@@ -9,6 +11,7 @@ import java.util.Scanner;
 public class MenuJogo {
 
     public static void menuJogo(Scanner scanner, Jogador jogador){
+        JogoDAO jogoDAO = new JogoDAOImpl();
         System.out.println("Escolha a dificuldade");
         System.out.println("1- Facil: 7 Vidas");
         System.out.println("2- Medio: 5 Vidas");
@@ -22,21 +25,24 @@ public class MenuJogo {
                 Date date = new Date();
                 jogador.setInicioJogo(date);
                 jogador.setDificuldade("FACIL");
-                Jogo jogo = new Jogo(scanner, jogador);
+                jogador.setIdJogador(jogoDAO.createJogoInf(jogador));
+                Jogo jogo = new Jogo(scanner, jogador, jogoDAO);
                 break;
             case "2":
                 jogador.setNumVidas(5);
                 date = new Date();
                 jogador.setInicioJogo(date);
                 jogador.setDificuldade("MEDIO");
-                jogo = new Jogo(scanner, jogador);
+                jogador.setIdJogador(jogoDAO.createJogoInf(jogador));
+                jogo = new Jogo(scanner, jogador, jogoDAO);
                 break;
             case "3":
                 jogador.setNumVidas(3);
                 date = new Date();
                 jogador.setInicioJogo(date);
                 jogador.setDificuldade("DIFICIL");
-                jogo = new Jogo(scanner, jogador);
+                jogador.setIdJogador(jogoDAO.createJogoInf(jogador));
+                jogo = new Jogo(scanner, jogador, jogoDAO);
                 break;
             default:
                 System.out.println("Opcao invalida. Por favor digite novamente");

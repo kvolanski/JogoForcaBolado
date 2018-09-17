@@ -5,13 +5,15 @@ import br.edu.fapi.dao.database.impl.JogoDAOImpl;
 import br.edu.fapi.model.Jogador;
 
 import java.io.*;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.FileAlreadyExistsException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.Calendar;
 import java.util.List;
 
-public class CriacaoArquivos {
+public class CriacaoArquivos{
 
     public CriacaoArquivos(){
         Path path = Paths.get(System.getProperty("user.dir")).resolve("Relatorios");
@@ -65,24 +67,28 @@ public class CriacaoArquivos {
         }
 
         try {
-            ObjectOutputStream objectOutputStream = new ObjectOutputStream(new FileOutputStream(define));
-
-            for (Jogador jogador : listaJogadores){
-                objectOutputStream.writeObject(jogador);
+            FileWriter fileWriter = new FileWriter(define, true);
+            PrintWriter printWriter = new PrintWriter(fileWriter);
+            for (Jogador jogadores : listaJogadores){
+                printWriter.printf("Nome:" + jogadores.getNome() + "\r\n" +
+                        "Dificuldade: " + jogadores.getDificuldade() + "\r\n" +
+                        "Palavra: " + jogadores.getPalavraJogo() + "\r\n" +
+                        "Resultado: " + jogadores.getSituacao() + "\r\n" +
+                        "Data e Hora de Inicio: " + jogadores.getInicioJogo() + "\r\n" +
+                        "Data e Hora de Fim: " + jogadores.getFimJogo()+ "\r\n\r\n");
             }
-            objectOutputStream.close();
-
-            ObjectInputStream objectInputStream = new ObjectInputStream(new FileInputStream(define));
-            Object object;
+            printWriter.close();
 
             try {
-                do {
-                    object = objectInputStream.readObject();
-                    System.out.println(((Jogador) object).toString());
-                } while (true);
-            } catch (EOFException e){}
+                List<String> linhas = Files.readAllLines(Paths.get(define), StandardCharsets.ISO_8859_1);
+                for (String linha : linhas) {
+                    System.out.println(linha);
+                }
+            } catch (IOException e) {
+                e.getMessage();
+            }
         } catch (IOException e) {
-            System.out.println(e.getMessage());
+            e.getMessage();
         }
     }
 }

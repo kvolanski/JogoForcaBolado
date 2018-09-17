@@ -1,5 +1,6 @@
 package br.edu.fapi.operacoes;
 
+import br.edu.fapi.dao.database.JogoDAO;
 import br.edu.fapi.model.Jogador;
 
 import java.util.List;
@@ -23,7 +24,7 @@ public class Operacoes {
     }
 
 
-    public static String lerPalavra(Scanner scanner, Jogador jogador) {
+    public static String lerPalavra(Scanner scanner, Jogador jogador, JogoDAO jogoDAO) {
         boolean palavraValida;
         String palavra;
 
@@ -70,6 +71,8 @@ public class Operacoes {
         } while (!palavraValida);
         palavra = palavra.replaceAll("á", "-");
         System.out.println(palavra);
+
+        jogoDAO.updatePalavra(jogador, palavra);
 
         return palavra;
     }
