@@ -4,22 +4,20 @@ import br.edu.fapi.dao.database.JogoDAO;
 import br.edu.fapi.dao.database.impl.JogoDAOImpl;
 import br.edu.fapi.model.Jogador;
 
-import java.io.*;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.FileAlreadyExistsException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.Calendar;
 import java.util.List;
 
 public class CriacaoArquivos{
 
     public CriacaoArquivos(){
         Path path = Paths.get(System.getProperty("user.dir")).resolve("Relatorios");
-
-//        Path path3 = Paths.get(System.getProperty("user.dir")).resolve("Relatorios").resolve("RelatorioVitorias.txt");
-//        Path path4 = Paths.get(System.getProperty("user.dir")).resolve("Relatorios").resolve("RelatorioDerrotas.txt");
         try {
             Files.createDirectory(path);
         } catch (IOException e) {}

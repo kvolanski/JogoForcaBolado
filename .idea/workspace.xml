@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91b81548-5be5-454f-9a67-f33123289640" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/25bb824e83c99025aaf6e0043164a6dcec44a003" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/25bb824e83c99025aaf6e0043164a6dcec44a003" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4ac9f0b2159537f03e8e922037f9b688e5a91f67" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4ac9f0b2159537f03e8e922037f9b688e5a91f67" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/a/6acd1cf3c2e9f01bd0141b1d149e8ad4eb2ee3a9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/a/6acd1cf3c2e9f01bd0141b1d149e8ad4eb2ee3a9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8fbc6d056edf4f4a839c44b5b48f01d804b7648c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8fbc6d056edf4f4a839c44b5b48f01d804b7648c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/3/a35424491625012bfe3c3c968d2fc19c5418b062" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/3/a35424491625012bfe3c3c968d2fc19c5418b062" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c05e249e41fdb07b0f0333cae3309d462f0f5454" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c05e249e41fdb07b0f0333cae3309d462f0f5454" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c5e19321b052c5c7c748f3ecce0596c4bd75dbc3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c5e19321b052c5c7c748f3ecce0596c4bd75dbc3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/9/d96378bd627169b9bd80026417f7397579764a9c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/9/d96378bd627169b9bd80026417f7397579764a9c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/2/e2780af070a952753f94568d612aad9f45a8c554" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/2/e2780af070a952753f94568d612aad9f45a8c554" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Relatorios/RelatorioDerrota.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Relatorios/RelatorioDerrota.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Relatorios/RelatorioGeral.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Relatorios/RelatorioGeral.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/fapi/dao/arquivos/CriacaoArquivos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/fapi/dao/arquivos/CriacaoArquivos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/fapi/dao/arquivos/CriacaoArquivos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/edu/fapi/dao/arquivos/CriacaoArquivos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/fapi/menus/MenuPrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/edu/fapi/menus/MenuPrincipal.class" afterDir="false" />
-    </list>
+    <list default="true" id="91b81548-5be5-454f-9a67-f33123289640" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,13 +37,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="5828" />
+          <entry key="java" value="5829" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5827" />
+          <entry key="JAVA" value="5828" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="SQL" value="1" />
         </counts>
@@ -95,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/dao/arquivos/CriacaoArquivos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="33" column="90" lean-forward="true" selection-start-line="33" selection-start-column="90" selection-end-line="33" selection-end-column="90" />
+            <state relative-caret-position="-928">
+              <caret line="33" column="90" selection-start-line="33" selection-start-column="90" selection-end-line="33" selection-end-column="90" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -390,7 +374,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537232276287" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537233168569" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/fapi-poo-io-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -440,12 +424,12 @@
       <updated>1537044667126</updated>
       <workItem from="1537044669506" duration="21967000" />
       <workItem from="1537107261822" duration="14785000" />
-      <workItem from="1537231205920" duration="1060000" />
+      <workItem from="1537231205920" duration="1699000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37812000" />
+    <option name="totallyTimeSpent" value="38451000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -458,6 +442,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25642672" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -817,8 +802,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/fapi/dao/arquivos/CriacaoArquivos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="33" column="90" lean-forward="true" selection-start-line="33" selection-start-column="90" selection-end-line="33" selection-end-column="90" />
+        <state relative-caret-position="-928">
+          <caret line="33" column="90" selection-start-line="33" selection-start-column="90" selection-end-line="33" selection-end-column="90" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

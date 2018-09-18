@@ -3,7 +3,6 @@ package br.edu.fapi.menus;
 import br.edu.fapi.model.Jogador;
 import br.edu.fapi.operacoes.Operacoes;
 
-import java.text.ParseException;
 import java.util.Scanner;
 
 public class MenuPrincipal {

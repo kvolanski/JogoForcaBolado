@@ -1,7 +1,6 @@
 package br.edu.fapi.jogo;
 
 import br.edu.fapi.dao.database.JogoDAO;
-import br.edu.fapi.dao.database.impl.JogoDAOImpl;
 import br.edu.fapi.model.Jogador;
 import br.edu.fapi.operacoes.Operacoes;
 
