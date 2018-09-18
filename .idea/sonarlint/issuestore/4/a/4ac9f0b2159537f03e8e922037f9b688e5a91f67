@@ -1,10 +1,10 @@
 
-‰"squid:ClassVariableVisibilityCheck"OMake url a static final constant or non-public and provide accessors if needed.(ú¦§¢ùÿÿÿÿ8øÂ¼üİ,
-"squid:ClassVariableVisibilityCheck
-"SMake usuario a static final constant or non-public and provide accessors if needed.(‡õé¥øÿÿÿÿ8øÂ¼üİ,
-Lsquid:S1444")Make this "public static url" field final(ú¦§¢ùÿÿÿÿ8øÂ¼üİ,
-Xsquid:S1118":Add a private constructor to hide the implicit public one.( ªƒ®8øÂ¼üİ,
-Psquid:S1444
-"-Make this "public static usuario" field final(‡õé¥øÿÿÿÿ8øÂ¼üİ,
 ‹"squid:ClassVariableVisibilityCheck"QMake senha a static final constant or non-public and provide accessors if needed.(£÷¿Ìûÿÿÿÿ8øÂ¼üİ,
 Nsquid:S1444"+Make this "public static senha" field final(£÷¿Ìûÿÿÿÿ8øÂ¼üİ,
+Psquid:S1444
+"-Make this "public static usuario" field final(‡õé¥øÿÿÿÿ8øÂ¼üİ,
+Lsquid:S1444")Make this "public static url" field final(ú¦§¢ùÿÿÿÿ8øÂ¼üİ,
+Xsquid:S1118":Add a private constructor to hide the implicit public one.( ªƒ®8øÂ¼üİ,
+"squid:ClassVariableVisibilityCheck
+"SMake usuario a static final constant or non-public and provide accessors if needed.(‡õé¥øÿÿÿÿ8øÂ¼üİ,
+‰"squid:ClassVariableVisibilityCheck"OMake url a static final constant or non-public and provide accessors if needed.(ú¦§¢ùÿÿÿÿ8øÂ¼üİ,

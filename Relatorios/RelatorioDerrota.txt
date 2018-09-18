@@ -5,3 +5,10 @@ Resultado: DERROTA
 Data e Hora de Inicio: 2018-09-15 20:56:26.0
 Data e Hora de Fim: 2018-09-15 20:56:36.0
 
+Nome:Tiago
+Dificuldade: FACIL
+Palavra: BANANA
+Resultado: DERROTA
+Data e Hora de Inicio: 2018-09-17 21:49:39.0
+Data e Hora de Fim: 2018-09-17 21:49:50.0
+

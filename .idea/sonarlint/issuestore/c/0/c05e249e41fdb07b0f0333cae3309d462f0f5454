@@ -1,15 +1,28 @@
 
 V
-squid:S106F"9Replace this use of System.out or System.err by a logger.(ôôÕ»8õÊ€Ş,
-rsquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(şİÊ¾ÿÿÿÿÿ8 ë¹üİ,
-rsquid:S20951"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(óóÛşÿÿÿÿ8İÎÎ€Ş,
-esquid:S20954"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(ò¡¥¹8ÍÜĞ€Ş,
+squid:S106O"9Replace this use of System.out or System.err by a logger.(ôôÕ»8’ö¨Ş,
 [
-squid:S106G"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8µ¸Ê€Ş,
-„squid:S1488 "aImmediately return this expression instead of assigning it to the temporary variable "resultado".(¢˜ô¸úÿÿÿÿ8Öİ¤€Ş,
-\squid:UselessImportCheck"1Remove this unused import 'java.text.DateFormat'.(÷Œá¼8ÊÊı€Ş,
-`squid:UselessImportCheck	"5Remove this unused import 'java.text.ParseException'.(ñ®ï•8¶™€Ş,
+squid:S106q"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8µ¸Ê€Ş,
+jsquid:S20950"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(İÜİ…ùÿÿÿÿ8ò§—¨Ş,
+[
+squid:S106P"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8’ö¨Ş,
+jsquid:S2095B"GUse try-with-resources or close this "Statement" in a "finally" clause.(¹–òòÿÿÿÿÿ8’ö¨Ş,
+jsquid:S2095."GUse try-with-resources or close this "Statement" in a "finally" clause.(¹–òòÿÿÿÿÿ8Ùÿ§Ş,
+osquid:S1192$"QDefine a constant instead of duplicating this literal "Falha na conexao" 4 times.(ôôÕ»8ÃÇû§Ş,
+rsquid:S2095["OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(óóÛşÿÿÿÿ8İÎÎ€Ş,
+esquid:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(ø÷´à8ª¿ß¨Ş,
 V
-squid:S106%"9Replace this use of System.out or System.err by a logger.(ôôÕ»8”öÀüİ,
+squid:S1069"9Replace this use of System.out or System.err by a logger.(ôôÕ»8ÃÇû§Ş,
 [
-squid:S106&"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8”öÀüİ,
+squid:S106%"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8”öÀüİ,
+V
+squid:S106p"9Replace this use of System.out or System.err by a logger.(ôôÕ»8õÊ€Ş,
+V
+squid:S106$"9Replace this use of System.out or System.err by a logger.(ôôÕ»8”öÀüİ,
+esquid:S2095^"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(ò¡¥¹8ÍÜĞ€Ş,
+[
+squid:S106:"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8ÃÇû§Ş,
+jsquid:S2095D"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(İÜİ…ùÿÿÿÿ8’ö¨Ş,
+rsquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ôø¬ğıÿÿÿÿ8 ë¹üİ,
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·Ëá8şà¨Ş,
+}squid:S1488"_Immediately return this expression instead of assigning it to the temporary variable "auto_id".(·Ëá8ê¾Ç©Ş,

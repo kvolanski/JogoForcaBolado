@@ -1,16 +1,13 @@
 
-isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ë÷ˆ‚8ÜÃ‚Þ,
+ksquid:S2095F"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(¤¡Ëøÿÿÿÿ8®¨Ò©Þ,
 [
-squid:S106@"9Replace this use of System.out or System.err by a logger.(©þêÜúÿÿÿÿ8¯ÿËƒÞ,
-Xsquid:S1141N"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8¯ÿËƒÞ,
-isquid:S1192"KDefine a constant instead of duplicating this literal "Relatorios" 4 times.(²­¨8ííÎƒÞ,
-esquid:S00112;"FDefine and throw a dedicated exception instead of using a generic one.(‘…Ôº8¹šËƒÞ,
+squid:S106B"9Replace this use of System.out or System.err by a logger.(©þêÜúÿÿÿÿ8¯ÿËƒÞ,
 [
-squid:S106U"9Replace this use of System.out or System.err by a logger.(©þêÜúÿÿÿÿ8¯ÿËƒÞ,
-Msquid:S00108S")Either remove or fill this block of code.(þÈªýþÿÿÿÿ8¯ÿËƒÞ,
-Gsquid:S00108")Either remove or fill this block of code.(Éò§+8»¯¾Þ,
-rsquid:S2095K"OUse try-with-resources or close this "ObjectInputStream" in a "finally" clause.(¹œÕûÿÿÿÿ8¯ÿËƒÞ,
-nsquid:S2095D"PUse try-with-resources or close this "ObjectOutputStream" in a "finally" clause.(²©Ä’8¯ÿËƒÞ,
-gsquid:S1192"IDefine a constant instead of duplicating this literal "user.dir" 4 times.(²­¨8ííÎƒÞ,
-[
-squid:S106Q"9Replace this use of System.out or System.err by a logger.(Û®®–ûÿÿÿÿ8¯ÿËƒÞ,
+squid:S106U"9Replace this use of System.out or System.err by a logger.(½†Ç¯ýÿÿÿÿ8¨ÞŒªÞ,
+Gsquid:S00108")Either remove or fill this block of code.(Éò§+8»¯¾Þ,
+gsquid:S1192"IDefine a constant instead of duplicating this literal "user.dir" 4 times.(²­¨8ííÎƒÞ,
+esquid:S00112="FDefine and throw a dedicated exception instead of using a generic one.(‘…Ôº8¹šËƒÞ,
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ë÷ˆ‚8ÜÃ‚Þ,
+isquid:S1192"KDefine a constant instead of duplicating this literal "Relatorios" 4 times.(²­¨8ííÎƒÞ,
+Xsquid:S1141R"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8¨ÞŒªÞ,
+Zsquid:UselessImportCheck"/Remove this unused import 'java.util.Calendar'.(ÿÛö´8¶­Ý©Þ,

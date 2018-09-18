@@ -31,7 +31,7 @@ public class CriacaoArquivos{
         String sql = "SELECT * FROM jogador";
         List<Jogador> listaJogadores;
         listaJogadores = jogoDAO.retrieveListJogos(sql);
-        String define = "C:\\Users\\FAPILAB105\\Documents\\jogoForcaBolado\\Relatorios\\RelatorioGeral.txt";
+        String define = System.getProperty("user.dir")+"\\Relatorios\\RelatorioGeral.txt";
 
         relatorio(path, define, listaJogadores);
     }
@@ -42,7 +42,7 @@ public class CriacaoArquivos{
         String sql = "SELECT * FROM jogador WHERE situacao = 'VITORIA'";
         List<Jogador> listaJogadores;
         listaJogadores = jogoDAO.retrieveListJogos(sql);
-        String define = "C:\\Users\\FAPILAB105\\Documents\\jogoForcaBolado\\Relatorios\\RelatorioVitoria.txt";
+        String define = System.getProperty("user.dir")+"\\Relatorios\\RelatorioVitoria.txt";
 
         relatorio(path, define, listaJogadores);
     }
@@ -53,7 +53,7 @@ public class CriacaoArquivos{
         String sql = "SELECT * FROM jogador WHERE situacao = 'DERROTA'";
         List<Jogador> listaJogadores;
         listaJogadores = jogoDAO.retrieveListJogos(sql);
-        String define = "C:\\Users\\FAPILAB105\\Documents\\jogoForcaBolado\\Relatorios\\RelatorioDerrota.txt";
+        String define = System.getProperty("user.dir")+"\\Relatorios\\RelatorioDerrota.txt";
 
         relatorio(path, define, listaJogadores);
     }

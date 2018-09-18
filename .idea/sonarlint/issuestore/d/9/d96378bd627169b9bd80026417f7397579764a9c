@@ -1,26 +1,44 @@
 
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(Òÿæªşÿÿÿÿ8Ó¤±üİ,
 V
-squid:S106"9Replace this use of System.out or System.err by a logger.(œ²’Û8Ó¤±üİ,
+squid:S106"9Replace this use of System.out or System.err by a logger.(ıú¬´8Ó¤±üİ,
 V
-squid:S106)"9Replace this use of System.out or System.err by a logger.(Ùÿ¾œ8Ó¤±üİ,
+squid:S1064"9Replace this use of System.out or System.err by a logger.(´ğ½«8¬§³ªŞ,
 V
-squid:S106"9Replace this use of System.out or System.err by a logger.(©Í×ú8Ó¤±üİ,
+squid:S106"9Replace this use of System.out or System.err by a logger.(©Í×ú8Ó¤±üİ,
 [
-squid:S106"9Replace this use of System.out or System.err by a logger.(ˆÏÔøÿÿÿÿ8Ó¤±üİ,
+squid:S106""9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Ó¤±üİ,
 [
-squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Ó¤±üİ,
+squid:S106"9Replace this use of System.out or System.err by a logger.(‰ñÈêùÿÿÿÿ8Ó¤±üİ,
+[
+squid:S106:"9Replace this use of System.out or System.err by a logger.(ò²Òûûÿÿÿÿ8©·¸ªŞ,
 V
-squid:S106"9Replace this use of System.out or System.err by a logger.(ıú¬´8Ó¤±üİ,
+squid:S1065"9Replace this use of System.out or System.err by a logger.(¨¯¿˜8–ÁµªŞ,
 [
-squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Ó¤±üİ,
+squid:S1066"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8¥â¶ªŞ,
+U
+squid:S1068"9Replace this use of System.out or System.err by a logger.(¤ÇÖ*8¶ÒÁªŞ,
 [
-squid:S106"9Replace this use of System.out or System.err by a logger.(‰ñÈêùÿÿÿÿ8Ó¤±üİ,
+squid:S1067"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8¥â¶ªŞ,
 [
 squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Ó¤±üİ,
+`squid:UselessImportCheck"5Remove this unused import 'java.text.ParseException'.(ñ®ï•8Ó¤±üİ,
+V
+squid:S106<"9Replace this use of System.out or System.err by a logger.(œôÌ‡8©·¸ªŞ,
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Ó¤±üİ,
+V
+squid:S106&"9Replace this use of System.out or System.err by a logger.(œ²’Û8Ó¤±üİ,
+V
+squid:S106@"9Replace this use of System.out or System.err by a logger.(Ùÿ¾œ8Ó¤±üİ,
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ıú¬´8Ã¹¿§Ş,
+[
+squid:S1069"9Replace this use of System.out or System.err by a logger.(”õ ÷üÿÿÿÿ8¥â¶ªŞ,
 U
-squid:S106"9Replace this use of System.out or System.err by a logger.(¦…Î8Ó¤±üİ,
-`squid:UselessImportCheck"5Remove this unused import 'java.text.ParseException'.(ñ®ï•8Ó¤±üİ,
-jsquid:S00112
-"FDefine and throw a dedicated exception instead of using a generic one.(ÑÏ¥—şÿÿÿÿ8×èæŞ,
+squid:S106%"9Replace this use of System.out or System.err by a logger.(¦…Î8Ó¤±üİ,
+[
+squid:S106;"9Replace this use of System.out or System.err by a logger.(Ÿòºùÿÿÿÿ8©·¸ªŞ,
+[
+squid:S106$"9Replace this use of System.out or System.err by a logger.(Òÿæªşÿÿÿÿ8Ó¤±üİ,
+[
+squid:S106#"9Replace this use of System.out or System.err by a logger.(ˆÏÔøÿÿÿÿ8Ó¤±üİ,
